@@ -11,13 +11,7 @@
     <script src="./script.js"></script>
 </head>
 <body>
-<!-- <button type= button onclick="getItems()">click  to dropdown</button>-->
-<?php
-/*
-include("./functionExtention.php");
-getAllKeys()
-*/
-?> 
+ 
 <form method="post" action="./details.php">
     <select name="event">
     <option value="html">html</option>
