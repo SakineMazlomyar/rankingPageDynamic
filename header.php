@@ -16,6 +16,7 @@
         <li> <a href="./index.php">Index sidan</a></li>
         <li> <a href="./listanSidan.php">Listan sidan</a></li>
         <li> <a href="./descriptionCode.php">Go to dropDown</a></li>
+        <li> <a href="./multiArraydata/data.php">Go to assosiative arrays</a></li>
     
 
        
