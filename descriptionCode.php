@@ -7,16 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./script.js"></script>
 </head>
 <body>
-<button type= button onclick="getItems()">click  to dropdown</button>
+<!-- <button type= button onclick="getItems()">click  to dropdown</button>-->
 <?php
-
+/*
 include("./functionExtention.php");
 getAllKeys()
+*/
 ?> 
-    
+<form method="post" action="./details.php">
+    <select name="event">
+    <option value="html">html</option>
+    <option value="css">css</option>
+    <option value="javascript">javascript</option>
+    <option value="nodejs">nodejs</option>
+    <option value="php">php</option>
+    <option value="python">python</option>
+    </select>
+    <input type="submit" name="submit" value="Get Selected Value's description." />
+</form>
+
 </body>
 </html>
 
