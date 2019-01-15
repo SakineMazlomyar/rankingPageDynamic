@@ -2,7 +2,7 @@
 <header>
     <ul>
         <li><h2><?php
-define("pageTitle", "Welcome to rankingLanguage!");
+define("pageTitle", "Welcome To RankingLanguage Website!");
 echo pageTitle;
 ?></h2></li>
         <li> <a href="./kontakt.php">kontakt sidan</a></li>
