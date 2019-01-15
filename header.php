@@ -8,6 +8,10 @@ echo pageTitle;
         <li> <a href="./kontakt.php">kontakt sidan</a></li>
         <li> <a href="./index.php">Index sidan</a></li>
         <li> <a href="./listanSidan.php">Listan sidan</a></li>
+        <li> <a href="./descriptionCode.php">Go to dropDown</a></li>
+    
+
+       
     </ul>
     
    
