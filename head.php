@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php
 define("Ranking","Ranking Website!");
-echo Ranking;
+$pageTitle = Ranking; 
+if(isset($pageTitle)){
+    echo $pageTitle;
+}
 ?></title>
     <link rel="stylesheet" href="./style.css">
 </head>
