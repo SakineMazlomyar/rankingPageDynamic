@@ -15,26 +15,19 @@ function sortTheList(){
 }
 
 
-function getAllKeys(){
-    foreach($GLOBALS['languagesDescription'] as $key=>$value){
 
-        echo
-        "<li id='dropDown'>"."<a href='details.php'>". $key ."</a>"."</li>";
-    }
-}
 
 function getValues(){
-    $array = array();
-    foreach($GLOBALS['languagesDescription'] as $key=>$value){
-        array_push($array, $key);
+    if(isset($_POST['submit'])){
 
+        $option = $_POST['event'];
+        foreach($GLOBALS['languagesDescription'] as $key=>$value){
+            if( $option == $key){
+
+                echo $value;
+            }
+        };
     }
-
-   /*  foreach($array as $value){
-        if($value == $GLOBALS['languagesDescription']=>[$key])
-        echo $GLOBALS['languagesDescription'][$value];
-        return;
-    } */
 }
 
 
