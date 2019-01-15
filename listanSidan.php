@@ -6,7 +6,11 @@
 
 
 <div>
-<?php include("./functionExtention.php");?>
+<?php
+include("./functionExtention.php");
+sortTheList();
+
+?>
 </div>
 
 
