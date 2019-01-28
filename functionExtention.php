@@ -3,7 +3,7 @@ include("./listan.php");
 include("./description.php");
 
 
-sort($myFavLan);
+sort($myFavLan, SORT_NUMERIC);
 
 
 
